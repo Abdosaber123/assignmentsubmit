@@ -1,0 +1,63 @@
+body{
+    background-color: #F7ECDE;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    position: relative;
+    font-size: 50px;
+}
+h1:before{
+    content: "";
+    position: absolute;
+    background-color: #FEC260;
+    height: 18px;
+    width: 213px;
+    z-index: -1;
+    top: 28px;
+}
+h1:before.hover {
+    
+    
+    background-color: red;
+    height: 24px;
+    width: 214px;
+    z-index: 1;
+    top: 19px;
+}
+button {
+    padding:  5px 50px;
+    background-color: #BB4120;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: #D1512D;
+}
+.about-text{
+    color: #93AA4E;
+    font-family: "Righteous", sans-serif;
+}
+.about-text span{
+    font-size: 25px;
+    font-weight: 500;
+}
+input:focus{
+    background-color: red;
+}
+.about-table .btn-visit{
+    padding: 5px 20px;
+    background-color: #9eb23b;
+    transition: all .3s ease;
+    border-radius: 5px;
+}
+.about-table .btn-visit:hover{
+    background-color: #8A9E23;
+}
+.about-table .btn-delete{
+    padding: 5px 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
